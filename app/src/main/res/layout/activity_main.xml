@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BADA55"
+    android:id="@+id/parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textColourChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello from Norman!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/buttonColourChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click for text colour change"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="300sp"
+        android:background="#008080"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:id="@+id/buttonBackChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click for background colour change"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200sp"
+        android:background="#008080"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:id="@+id/messageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click for message"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100sp"
+        android:background="#008080"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
